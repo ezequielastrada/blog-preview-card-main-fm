@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-:root {
+:root{
     --Yellow: hsl(47, 88%, 63%);
     --White: hsl(0, 0%, 100%);
     --Grey: hsl(0, 0%, 50%);
@@ -8,20 +8,76 @@
 }
 
 *{
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    border: solid 1px black;
 }
 
-body {
+body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--Yellow);
 }
 
-.container-footer {
+.container{
+    
+}
+
+.card{
+    background-color: var(--White);
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card-event h5{
+    margin-top: 10px;
+}
+.card-details {
+    margin-top: 20px;
+    border-radius: 5px;
     display: flex;
+    align-items: center;
+    background-color: var(--Yellow);
+    height: 30px;
+    width: 90px;
+    padding: 13px;
+}
+
+.card p{
+    font-weight: 500;
+    text-align: justify;
+    color: var(--Grey);
+}
+
+.card-details h3{
+    
+}
+
+
+
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-footer h3 {
+    font-weight: 800;
+    margin-left: 10px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
